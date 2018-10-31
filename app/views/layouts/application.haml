@@ -1,0 +1,13 @@
+!!!
+%html
+  %head
+    %title VueApp
+    %meta{ name: 'viewport', content: 'width=device-width, initial-scale=1' }
+
+    = csrf_meta_tags
+    = stylesheet_link_tag    'application'
+    = javascript_include_tag 'application'
+    = javascript_pack_tag 'application'
+
+  %body
+    = yield

@@ -1,3 +1,1 @@
-
-
-
+export default () => console.log ('fire in the hole !');

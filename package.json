@@ -1,0 +1,14 @@
+{
+  "name": "VueApp",
+  "private": true,
+  "scripts": {
+    "dev": "./bin/webpack-dev-server",
+    "start": "./bin/webpack --watch --colors --progress"
+  },
+  "dependencies": {
+    "@rails/webpacker": "3.5"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "2.11.2"
+  }
+}

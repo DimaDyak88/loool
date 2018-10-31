@@ -1,0 +1,10 @@
+%h1
+  hello new application, testing vuejs
+#vue-app
+= link_to 'new user', new_user_path
+
+- @users.each do |user|
+  %p
+    %i= user.name
+
+
